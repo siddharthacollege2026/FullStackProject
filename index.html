@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MCA Student Portal</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="container">
+        <h2>Welcome to MCA Student Portal</h2>
+        <p>This is a simple static website created as part of the Full Stack Web Development lab practical. It demonstrates fundamental HTML tags, CSS styling, tables, and forms.</p>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container">
+        <h2>About the Student</h2>
+        <p><strong>Program:</strong> Master of Computer Applications (MCA)</p>
+        <p><strong>Semester:</strong> III Semester</p>
+        <p><strong>Objective:</strong> To learn core web design principles using HTML and CSS without relying on complex frameworks.</p>
+    </div>
+
+    <!-- Subjects Section (Table Example) -->
+    <div id="subjects" class="container">
+        <h2>Semester III Subjects</h2>
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>MCA 301</td>
+                <td>Distributed Systems</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>MCA 302</td>
+                <td>Advanced Web Technologies</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>MCA 303</td>
+                <td>Database Security</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div id="contact" class="container">
+        <h2>Contact / Feedback Form</h2>
+        <form>
+            <label for="fname">Full Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your name..." required>
+
+            <label for="femail">Email Address:</label>
+            <input type="email" id="femail" name="email" placeholder="Enter your email..." required>
+
+            <label for="fmsg">Message:</label>
+            <textarea id="fmsg" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 MCA Department Lab Practical</p>
+    </footer>
+
+</body>
+</html>
